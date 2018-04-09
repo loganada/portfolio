@@ -1,0 +1,224 @@
+/* Custom CSS */
+
+.attribution__link{
+   display: none;
+}
+.node__title-link{
+
+}
+#masthead{
+color: #4ba493;
+background: linear-gradient( -5deg, #e67300, #ff8000, #67b641, #ffa64d, #99ff99);
+
+background-size: 400% 400%;
+-webkit-animation: Gradient 15s ease infinite;
+-moz-animation: Gradient 15s ease infinite;
+animation: Gradient 15s ease infinite;
+}
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+.l-leaderboard, .menu odd menu-level-1, .menu-name--account, .pr-leaderboard__rw{
+background-color: white;
+
+}
+.site-branding__slogan{
+
+float: right;
+padding: 26px;
+color: grey;
+}
+
+.l-main, .pr-main__rw{
+background-color: rgb(170, 170, 170);
+}
+
+.block__content{
+border-radius: 15px;
+background-color: rgb(255,255,255,0.7);
+}
+.page__title{
+margin-left: 50px;
+padding: 10px;
+
+}
+.contextual-region, .node node--id-17{
+
+}
+.node--type-my-skills, .node--view-mode-teaser, .node--type-about-adam, .node--type-services, .node--type-resume{
+border-radius: 15px;
+box-shadow:  5px 10px #888888;
+}
+.ms-dropmenu, .rm-block__content, .menu-level-1 {
+color: black;
+}
+.block-menu__content{
+float: right;
+}
+.node__title-link{
+display: none;
+}
+.image-style-thumbnail{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+a:link, a:visited{
+color: #3385ff;
+}
+#contact-message-contact-me-form{
+background-color: white;
+padding: 20px;
+border-radius: 20px;
+}
+#edit-subject-0-value, #edit-mail, #edit-name, textarea, textarea:hover, textarea:focus{
+background-color: rgb(190, 190, 190, 0.3);
+border-radius: 20px;
+padding: 5px;
+border: 2px solid rgb(190, 190, 190, 0.3);
+}
+h2{
+text-shadow: 1px 1px rgb(170, 170, 170);
+}
+h3{
+color: black;
+}
+.site-branding__logo-img{
+border-radius: 15px;
+}
+#footer{
+background-color: white;
+padding: 0;
+margin: 0;
+}
+#block-contactinformation-title{
+color: black;
+}
+footer h3{
+text-align: center;
+text-decoration: underline;
+}
+footer img{
+display: inline;
+}
+.node--type-about-adam img{
+border-radius: 15px;
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.field-node--field-repo {
+float: right;
+}
+.field-type-image__item{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+.site-branding__name-link{
+padding: 0;
+color: black;
+}
+#block-letsgetintouch-title{
+text-align: center;
+color: black;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+height: 4px;
+border-radius: 15px;
+}
+
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+
+.animation:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+

@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - adam_logan
+id: adam_logan_login
+theme: adam_logan
+region: sidebar_second
+weight: 20
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }
